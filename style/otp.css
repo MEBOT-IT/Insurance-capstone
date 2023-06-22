@@ -1,0 +1,93 @@
+.otp{
+    width: 500px;
+    height: 300px;
+   
+    position: absolute;
+   margin-top: 10%;
+    padding: 20px;
+   
+    margin-left: 30%;
+    
+    background-color: #708cbde3;
+    border-radius: 10px;
+
+}
+.otp h1{
+    text-align: center;
+}
+.otp label, input{
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+.awcontainer{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+    .payment
+	{
+ 
+        border:1px solid #f2f2f2;
+		height:300px;
+        width: 400px;
+        border-radius:20px;
+        background:#b6cfdb;
+        margin-left: 35%;
+        margin-top: 20%;
+	}
+   .payment_header
+   {
+	   background:rgb(25, 148, 230);
+	   padding:20px;
+       border-radius:20px 20px 0px 0px;
+    
+	   
+   }
+   
+   .checkk
+   {
+	   margin:0px auto;
+	   width:50px;
+	   height:50px;
+	   border-radius:100%;
+	   background:#fff;
+	   text-align:center;
+   }
+   
+   .checkk i
+   {
+	   vertical-align:middle;
+	   line-height:50px;
+	   font-size:30px;
+   }
+
+    .c
+    {
+        text-align:center;
+    }
+
+    .c  h1
+    {
+        font-size:25px;
+        padding-top:25px;
+    }
+
+    .c a
+    {
+        width:200px;
+        height:35px;
+        color:#fff;
+        border-radius:30px;
+        padding:5px 10px;
+        background:rgb(8, 89, 240);
+        transition:all ease-in-out 0.3s;
+    }
+
+    .c a:hover
+    {
+        text-decoration:none;
+        background:#000;
+    }
+

@@ -1,0 +1,632 @@
+body{
+    margin: 0;
+    padding: 0;  
+  }
+  .icon{
+    left: 10px;
+  top: -3px;
+    position: absolute;
+  width: 230px;
+  height:0px;
+    
+  }
+  
+  .navbar{
+    width: 1180px;
+    height: 75px;
+    position: absolute;
+  left: 0;
+    
+  
+  }
+  
+  .navbar{
+    background: rgb(255, 255, 255)
+  
+    
+  }
+  
+  .menu{
+    width: 600px;
+    float: right;
+    left: 1900px;
+    height: 70px;
+  }
+  
+  .menu ul{
+    list-style: none;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  position: absolute;
+  left: 489px;
+  top: 38px;
+  }
+  
+  
+  
+  .menu ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-weight: bold;
+  font-size: 16px;
+  transition: 0.4s ease-in-out;
+    margin-left: 50px;
+    
+  }
+  .menu ul li a img{
+    width: 20px;
+    height: 40px;
+  }
+  
+  .menu ul li a:hover{
+  color: dodgerblue;
+  }
+  
+  /*Why Should I buy*/
+  
+  .btn{
+    width: 100px;
+    height: 39px;
+    background-color: rgb(255, 209, 3);
+    border: none;
+    margin-top: 50px;
+    margin-left: 70px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: 0.39s ease;
+  position: absolute;
+  left: 1086px;
+  top: 1px;
+  }
+  
+  .btn:hover{
+    transform: scale(1.3);
+    z-index: 2;
+    background-color: rgb(132, 196, 255);
+    font-family: sans-serif;
+    
+  }
+  
+  .btn a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  .pic{
+    margin-left: 140px;
+    margin-top: 120px;
+    height: 200px;
+    width: 200px;
+  }
+.health{
+    position: absolute;
+    margin-top:10%;
+    display: flex;
+   
+    
+}
+
+.health img{
+    width: 1260px;
+    height: 450px;
+    margin-top: -1.5%;
+    
+}
+.health1{
+  
+    position: absolute;
+    width: 500px;
+    margin-left: 5%;
+    align-content: center;
+}
+.health1 h1{
+    font-size: 45px;
+    font-family: Arial;
+    text-align: center;
+    color: rgb(13, 46, 93) ;
+    margin-top: 70px;
+    text-shadow: 2px 2px 4px #f5f8f4;
+
+}
+.health1 p{
+    font-size: 25px;
+    font-family: Arial;
+    color: rgb(54, 48, 48);
+    text-align: center;
+    
+}
+
+.premium{
+    height: 800px;
+    width: 1263px;
+    background-color: rgb(213, 252, 252);
+    position: absolute;
+    margin-top: 45%;
+   display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.section{
+    height: 770px;
+    width: 878px;
+    background-color: rgb(242, 245, 245);
+    position: relative;
+    margin-top: 1%;
+    margin-left: 1%;
+    align-items: center;
+
+}
+.cardplan{
+    width: 850px;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+     position: relative;
+     margin-top: 1%;
+    margin-left: 1%;
+    border-radius: 15px;
+    
+    align-items: center;
+     border: 1px solid grey;
+    
+}
+
+.head{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 1px solid rgb(180, 176, 176);
+   
+}
+.head img{
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 3%;
+}
+
+.head p{
+    font-size: 20px;
+    font-family: Arial;
+    margin-top: 30px;
+    margin-left: 3%;
+}
+
+.cardbody {
+    display: flex;
+    margin-right: 1%;
+   
+    margin-left: 1%;
+    border: 1px solid rgb(180, 176, 176);
+height: 50px;
+}
+
+.cardbody ul{
+    list-style: none;
+    display: flex;
+  
+    margin-left: 1%;
+    
+}
+
+.cardbody ul li{
+    margin-right: 5%;
+    border: 1px solid rgb(180, 176, 176);
+    font-size: 13px;
+    width: 250px;
+    margin-top: 1%;
+    border-radius: 5px;
+
+    height: 30px;
+    text-align: center;
+
+}
+.cardbody ul li p{
+    margin-top: 6px;
+}
+
+.cardbody2, .cardbody3 {
+    display: flex;
+    margin-right: 1%;
+    margin-left: 1%;
+    border: 1px solid rgb(180, 176, 176);
+height: 80px;
+}
+.ratio {
+    margin-right: 3%;
+}
+.ratio p{
+    margin-left: 10px;
+    color: grey;
+    width: 200px;
+    
+}
+
+.ratio .per{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+ .check{
+    width: 120px;
+    margin-right: 2%;
+    height: 50px;
+    margin-top: 8.5%;
+    background-color: orange;
+    border-radius: 10px;
+}
+.check:hover{
+    transform: scale(1.1);
+}
+.companies{
+    width: 380px;
+    height: 800px;
+   
+    margin-top: 0px;
+}
+.companies h1{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25%;
+    color: rgb(25, 28, 28);
+    text-shadow: 2px 2px;
+    
+}
+
+
+.companies img{
+    width: 370px;
+    height: 200px;
+    margin-top:5.5% ;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.images img{
+    width:150px ;
+    height: 150px;
+    position: absolute;
+  }
+  .rotate{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    margin-top: 30%;
+    margin-left: 15%;
+    transform-style: preserve-3d;
+    transform: rotateX(-10deg) rotatez(-10deg);
+    animation: ror 20s linear infinite;
+  }
+  
+  @keyframes ror{
+    50%{
+        transform: rotateX(30deg);
+    }
+    80%{
+        transform: rotateZ(-30deg);
+    }
+  
+  }
+  
+  .images{
+    width: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: rotatee 20s linear infinite;
+  }
+  
+  @keyframes rotatee{
+    from{
+  
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+  
+  }
+  .images img:nth-child(1){
+    transform: rotateY(120deg) translateZ(100px);
+  }
+  .images img:nth-child(2){
+    transform: rotateY(240deg) translateZ(100px);
+  }
+  .images img:nth-child(3){
+    transform: rotateY(360deg) translateZ(100px);
+  }
+  
+  .images img:hover{
+    width: 170px;
+    height: 170px;
+    cursor: pointer;
+  }
+
+.complogo img{
+    width: 170px;
+    height: 100px;
+    margin-left: 3%;
+    margin-top: 13%;
+}
+.complogo img:hover{
+    transform: scale(1.1);
+}
+.b{
+  margin-top: 100%;
+  margin-left: 5%;
+  position :relative
+}
+  
+  .heading{
+  text-align:left;
+ }
+  .heading h1{
+  font-size: 50px;
+  color: #36455c;
+
+  }
+  .heading p{
+  font-size: 20px;
+  color:#666;
+  margin-bottom: 50px;
+  
+  }
+  .about-us{
+  display: flex;
+  align-items: center;
+  width: 95%;
+  margin-top: 5%;
+  }
+  .present{
+  display: flex;
+  align-items: center;
+  width: 95%;
+  margin-top: 5%;
+  }
+  .present img{
+  width: 450px;
+  height: 400px;
+  margin-left: 0%;
+  
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+  
+  }
+  .about-us img{
+ 
+  width: 450px;
+  height: 400px;
+  transition: 2s;
+  }
+  .about-us img:hover{
+  
+  z-index: 130;
+  }
+  .boxx1 img{
+    height: 400px;
+    width: 450px;
+    margin-left: 10%;
+  }
+  .boxx1 img:hover{
+    z-index: 130;
+
+  }
+  
+  .content{
+  padding: 35px;
+  }
+  .content1{
+  padding: 35px;
+  }
+  .content1 h3{
+    margin-top: 1%;
+    padding-bottom: 4%;
+    color: #19705d;
+    font-size: 30px;
+  }
+  .content1 p{
+  color:black;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.5;
+  margin-left: 1%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .content p{
+  color:black;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-left: 1%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .content h3{
+    margin-top: 1%;
+    padding-bottom: 4%;
+    color: #19705d;
+    font-size: 30px;
+  }
+  .content b,.content1 b{
+    color: #191970;
+    font-size: 20px;
+  }
+  .read-more-btn{
+  display: inline-block;
+  color: antiquewhite;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  }
+  .read-more-btn:hover{
+  background-color:violet;
+  }
+  @media(max-width:768px)
+  {
+  .about-us{
+      flex-direction: column;
+  }
+  .about-us img{
+      flex: 0 100%;
+      max-width: 100%;
+  }
+  .content{
+      flex:0 100%;
+      max-width: 100%;
+      padding: 15px;
+  }
+  }
+  
+  .boxx
+  {
+  
+  background-color:cornsilk;
+  transition: 1s;
+  margin:0px 45px
+  
+  }
+  .content{
+    height: 400px;
+    width: 600px;
+    margin-left: 10%;
+  }
+  
+  .boxx:hover{
+  transform: scale(1);
+  box-shadow: 10px 25px 30px 15px rgb(109, 131, 150);
+  color: blue;
+  }
+  .boxx{
+  
+  font-size: 15px;
+  color: rgb(12, 2, 63);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+.container{
+  max-width: 1170px;
+  margin: 10px;
+  justify-content: space-evenly;
+}
+
+.container ul{
+  list-style: none;
+}
+.footer{
+  background-color:#191970;
+  padding: 70px 0;
+  margin-top: 10%;
+ 
+}
+.footerbike{
+  background-color:#191970;
+  padding: 70px 0;
+  margin-top: 10%;
+ 
+}
+.footer-col{
+  display: inline-flex;
+  margin-left: 100px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: whitesmoke;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-family: Arial;
+  position: relative;
+
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: aqua;
+  text-decoration: none;
+  font-weight: 300;
+  color: #e6dada;
+  display: block;
+  font-family: Arial;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color:coral;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background:rgba;
+  margin-right: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color:#ffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color:rgb(20, 20, 89);
+  background-color: #ffffff;
+}
+@media(max-width:767px){
+  .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+}
+@media(max-width:574px){
+  .footer-col{
+      width:190px;
+      margin-bottom: 30px;
+
+  }
+}
+.cp1{
+  font-size: small;
+  text-align: center;
+  color: lightgray;
+  font-family: Arial;
+
+  
+}
+.cp2{
+ font-size: 15px;
+ text-align: center;
+ color: white;
+ font-family: Arial;
+}
+.cp3{
+ font-size: 14px;
+ text-align: center;
+ color: lightgray;
+ font-family: Arial;
+}
+.cp4{
+  font-size: large;
+  text-align: center;
+  color: white;
+  font-family: Arial;
+}
+.social-links img{
+  width: 250px;
+  height: 100PX;
+}

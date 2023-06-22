@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/bikedetail.css">
+</head>
+<body>
+          
+    
+
+      
+      <body>
+        <div class="container">
+          <div class="header">
+            <h2>Child Insurance Form</h2>
+          </div>
+          <form action="./payment.html">
+            <div class="row">
+              <div class="column">
+                <div class="form-group">
+                  <label for="fullName">Child Full Name</label>
+                  <input type="text" id="fullName" name="fullName" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="phoneNumber">Phone Number</label>
+                  <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{10}" required>
+                </div>
+                <div class="form-group">
+                  <label for="Pn">Father's  Name</label>
+                  <input type="text" id="pn" name="pn" required>
+                </div>
+                <div class="form-group">
+                    <label for="Pn">Mother's  Name</label>
+                    <input type="text" id="pn" name="pn" required>
+                  </div>
+                <div class="form-group">
+                    <label for="gender">Policy For:</label>
+                    <input type="radio" id="gender" name="gender" value="Daughter"/>Daughter 
+                    <input type="radio" id="gender" name="gender" value="Son"/>Son
+                </div>
+              </div>
+              <div class="column">
+                <div class="form-group">
+                  <label for="registration">Registration Number</label>
+                  <input type="text" id="registration" name="registration" required>
+                </div>
+               
+                <div class="form-group">
+                  <label for="insuranceType">Insurance Type</label>
+                  <select id="insuranceType" name="insuranceType" required>
+                    <option value="">Select Insurance Type</option>
+                    <option value="SPCP">Single Premium Child Plan</option>
+                    <option value="RPCP">Regular Premium Child Plan</option>
+                    <option value="CEP">Child Endowment Plan</option>
+                    
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="coverageAmount">Coverage Amount</label>
+                  <input type="number" id="coverageAmount" name="coverageAmount" required>
+                </div>
+                <div class="form-group">
+                  <label for="startDate">Start Date</label>
+                  <input type="date" id="startDate" name="startDate" required>
+                </div>
+                <div class="form-group">
+                  <label for="endDate">End Date</label>
+                  <input type="date" id="endDate" name="endDate" required>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="submit" value="Submit">
+            </div>
+          </form>
+        </div>
+      </body>
+      </html>

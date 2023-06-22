@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .images img{
+            width:150px ;
+            height: 150px;
+            position: absolute;
+        }
+        .rotate{
+            width: 350px;
+            height: 200px;
+            position: relative;
+            margin-top: 15%;
+            margin-left: 40%;
+            transform-style: preserve-3d;
+            transform: rotateX(-10deg) rotatez(-10deg);
+            animation: ror 20s linear infinite;
+        }
+       
+        @keyframes ror{
+            50%{
+                transform: rotateX(30deg);
+            }
+            80%{
+                transform: rotateZ(-30deg);
+            }
+
+        }
+
+        .images{
+            width: 100%;
+            position: absolute;
+            transform-style: preserve-3d;
+            animation: rotatee 20s linear infinite;
+        }
+
+        @keyframes rotatee{
+            from{
+
+            }
+            to{
+                transform: rotateY(360deg);
+            }
+
+        }
+        .images img:nth-child(1){
+            transform: rotateY(120deg) translateZ(100px);
+        }
+        .images img:nth-child(2){
+            transform: rotateY(240deg) translateZ(100px);
+        }
+       .images img:nth-child(3){
+            transform: rotateY(360deg) translateZ(100px);
+        }
+       
+        .images img:hover{
+            width: 170px;
+            height: 170px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="rotate">
+        <div class="images">
+            <img src="../img/digit.jpeg">
+            <img src="../img/sriram.jpeg">
+            <img src="../img/kotak.jpeg">
+            <!--<img src="../img/lic.png">
+            <img src="../img/royal.jpeg">
+            <img src="../img/acko.png">-->
+        </div>
+    </div>
+    
+</body>
+</html>
